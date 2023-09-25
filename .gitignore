@@ -1,0 +1,12 @@
+# Project Specific
+/public
+/vendor
+/node_modules
+/storybook
+/.vscode
+/release.zip
+/eightshift-forms
+
+# Tests
+tests/coverage/*
+.phpunit.result.cache

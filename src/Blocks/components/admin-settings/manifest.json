@@ -1,0 +1,35 @@
+{
+	"componentName": "admin-settings",
+	"title": "Admin Settings",
+	"componentClass": "es-admin-settings",
+	"attributes": {
+		"adminSettingsPageTitle": {
+			"type": "string"
+		},
+		"adminSettingsSubTitle": {
+			"type": "string"
+		},
+		"adminSettingsBackLink": {
+			"type": "string"
+		},
+		"adminSettingsFormEditLink": {
+			"type": "string"
+		},
+		"adminSettingsLink": {
+			"type": "string"
+		},
+		"adminSettingsSidebar": {
+			"type": "array"
+		},
+		"adminSettingsForm": {
+			"type": "string"
+		},
+		"adminSettingsType": {
+			"type": "string"
+		},
+		"adminSettingsIsGlobal": {
+			"type": "boolean",
+			"default": false
+		}
+	}
+}

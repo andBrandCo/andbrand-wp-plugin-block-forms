@@ -1,0 +1,56 @@
+{
+	"componentName": "radio",
+	"title": "Radio",
+	"componentClass": "es-radio",
+	"componentJsSingleSubmitClass": "js-es-block-form-single-submit",
+	"example": {
+		"attributes": {
+			"radioLabel": "Label",
+			"radioValue": "Value",
+			"radioName": "Name",
+			"radioIsChecked": false,
+			"radioIsDisabled": false,
+			"radioIsRequired": false
+		}
+	},
+	"attributes": {
+		"radioId": {
+			"type": "string"
+		},
+		"radioLabel": {
+			"type": "string"
+		},
+		"radioValue": {
+			"type": "string"
+		},
+		"radioName": {
+			"type": "string"
+		},
+		"radioIsChecked": {
+			"type": "boolean",
+			"default": false
+		},
+		"radioIsDisabled": {
+			"type": "boolean",
+			"default": false
+		},
+		"radioIsRequired": {
+			"type": "boolean",
+			"default": false
+		},
+		"radioTracking": {
+			"type": "string"
+		},
+		"radioFieldType": {
+			"type": "string",
+			"default": "fieldset"
+		},
+		"radioSingleSubmit": {
+			"type": "boolean",
+			"default": false
+		},
+		"radioAttrs": {
+			"type": "array"
+		}
+	}
+}

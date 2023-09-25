@@ -1,0 +1,19 @@
+{
+	"blockName": "select-option",
+	"title": "Select option",
+	"description" : "A select field option",
+	"category": "andbrand-block-forms-base",
+	"icon": {
+		"src": "esf-select-option"
+	},
+	"keywords": [
+		"select",
+		"option"
+	],
+	"components": {
+		"selectOption": "selectOption"
+	},
+	"parent": [
+		"andbrand-block-forms-base/select"
+	]
+}

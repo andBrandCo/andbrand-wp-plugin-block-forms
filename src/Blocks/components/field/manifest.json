@@ -1,0 +1,127 @@
+{
+	"componentName": "field",
+	"title": "Field",
+	"componentClass": "es-field",
+	"componentJsClass": "js-es-block-form-field",
+	"example": {
+		"attributes": {
+			"fieldContent": "Content",
+			"fieldId": "Id",
+			"fieldLabel": "Label",
+			"fieldName": "Name"
+		}
+	},
+	"components": {
+		"error": "error",
+		"tooltip": "tooltip"
+	},
+	"attributes": {
+		"fieldType": {
+			"type": "string",
+			"default": "div"
+		},
+		"fieldContent": {
+			"type": "string"
+		},
+		"fieldBeforeContent": {
+			"type": "string"
+		},
+		"fieldAfterContent": {
+			"type": "string"
+		},
+		"fieldName": {
+			"type": "string"
+		},
+		"fieldUniqueId": {
+			"type": "string"
+		},
+		"fieldId": {
+			"type": "string"
+		},
+		"fieldLabel": {
+			"type": "string",
+			"default": "Label"
+		},
+		"fieldUse": {
+			"type": "boolean",
+			"default": true
+		},
+		"fieldHideLabel": {
+			"type": "boolean",
+			"default": false
+		},
+		"fieldHelp": {
+			"type": "string"
+		},
+		"fieldUseError": {
+			"type": "boolean",
+			"default": true
+		},
+		"fieldUseTooltip": {
+			"type": "boolean",
+			"default": false
+		},
+		"fieldWidthLarge": {
+			"type": "integer"
+		},
+		"fieldWidthDesktop": {
+			"type": "integer"
+		},
+		"fieldWidthTablet": {
+			"type": "integer"
+		},
+		"fieldWidthMobile": {
+			"type": "integer"
+		},
+		"fieldDisabled": {
+			"type": "boolean",
+			"default": false
+		},
+		"fieldIsRequired": {
+			"type": "boolean",
+			"default": false
+		},
+		"fieldOrder": {
+			"type": "integer"
+		},
+		"fieldStyle": {
+			"type": "string"
+		},
+		"fieldAttrs": {
+			"type": "array"
+		}
+	},
+	"responsiveAttributes": {
+		"fieldWidth": {
+			"large": "fieldWidthLarge",
+			"desktop": "fieldWidthDesktop",
+			"tablet": "fieldWidthTablet",
+			"mobile": "fieldWidthMobile"
+		}
+	},
+	"variables": {
+		"fieldWidth": [
+			{
+				"inverse": true,
+				"variable": {
+					"field-width": "calc((%value%/12)*100%)"
+				}
+			}
+		],
+		"fieldOrder": [
+			{
+				"inverse": true,
+				"variable": {
+					"field-order": "%value%"
+				}
+			}
+		]
+	},
+	"options": {
+		"fieldWidth": {
+			"min":  1,
+			"max":  12,
+			"step": 1
+		}
+	}
+}

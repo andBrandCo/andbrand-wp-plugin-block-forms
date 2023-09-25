@@ -1,0 +1,18 @@
+{
+	"blockName": "checkbox",
+	"title": "Checkbox",
+	"description" : "A simple true/false toggle",
+	"category": "andbrand-block-forms-base",
+	"icon": {
+		"src": "esf-checkbox"
+	},
+	"keywords": [
+		"checkbox"
+	],
+	"components": {
+		"checkbox": "checkbox"
+	},
+	"parent": [
+		"andbrand-block-forms-base/checkbox"
+	]
+}

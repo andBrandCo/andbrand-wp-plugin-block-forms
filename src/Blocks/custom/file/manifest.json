@@ -1,0 +1,18 @@
+{
+	"blockName": "file",
+	"title": "File",
+	"description" : "A file upload field",
+	"category": "andbrand-block-forms-base",
+	"icon": {
+		"src": "esf-file"
+	},
+	"keywords": [
+		"file"
+	],
+	"components": {
+		"file": "file"
+	},
+	"parent": [
+		"andbrand-block-forms-base/form"
+	]
+}

@@ -1,0 +1,65 @@
+{
+	"componentName": "file",
+	"title": "file",
+	"componentClass": "es-file",
+	"componentCustomJsClass": "js-es-block-form-custom",
+	"example": {
+		"attributes": {
+			"fileName": "Name",
+			"fileAccept": "Accept",
+			"fileIsMultiple": false,
+			"fileIsRequired": false
+		}
+	},
+	"components": {
+		"field": "field"
+	},
+	"attributes": {
+		"fileId": {
+			"type": "string"
+		},
+		"fileName": {
+			"type": "string"
+		},
+		"fileAccept": {
+			"type": "string"
+		},
+		"fileMinSize": {
+			"type": "string"
+		},
+		"fileMaxSize": {
+			"type": "string"
+		},
+		"fileIsMultiple": {
+			"type": "boolean",
+			"default": false
+		},
+		"fileIsRequired": {
+			"type": "boolean",
+			"default": false
+		},
+		"fileTracking": {
+			"type": "string"
+		},
+		"fileCustomInfoText": {
+			"type": "string"
+		},
+		"fileCustomInfoTextUse": {
+			"type": "boolean",
+			"default": true
+		},
+		"fileCustomInfoButtonText": {
+			"type": "string"
+		},
+		"fileUseCustom": {
+			"type": "boolean",
+			"default": true
+		},
+		"fileMeta": {
+			"type": "string"
+		},
+		"fileAttrs": {
+			"type": "array"
+		}
+	}
+}

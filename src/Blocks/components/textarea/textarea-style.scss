@@ -1,0 +1,15 @@
+.es-textarea {
+	width: 100%;
+	border: 1px solid var(--global-colors-es-chalice);
+	cursor: text;
+	background-color: transparent;
+	min-height: calc(var(--global-es-input-height) * 3);
+	height: calc(var(--global-es-input-height) * 3);
+	padding: 10px;
+
+	&:focus {
+		outline: none;
+		box-shadow: none;
+		border-color: var(--global-colors-es-matisse);
+	}
+}

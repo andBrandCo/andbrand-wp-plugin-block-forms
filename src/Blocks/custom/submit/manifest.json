@@ -1,0 +1,18 @@
+{
+	"blockName": "submit",
+	"title": "Submit",
+	"description" : "A form submission button",
+	"category": "andbrand-block-forms-base",
+	"icon": {
+		"src": "esf-submit"
+	},
+	"keywords": [
+		"submit"
+	],
+	"components": {
+		"submit": "submit"
+	},
+	"parent": [
+		"andbrand-block-forms-base/form"
+	]
+}

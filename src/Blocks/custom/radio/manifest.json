@@ -1,0 +1,18 @@
+{
+	"blockName": "radio",
+	"title": "Radio button",
+	"description" : "A simple radio button",
+	"category": "andbrand-block-forms-base",
+	"icon": {
+		"src": "esf-radio"
+	},
+	"keywords": [
+		"radio"
+	],
+	"components": {
+		"radio": "radio"
+	},
+	"parent": [
+		"andbrand-block-forms-base/radio"
+	]
+}

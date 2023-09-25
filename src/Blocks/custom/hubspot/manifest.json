@@ -1,0 +1,29 @@
+{
+	"blockName": "hubspot",
+	"title": "HubSpot Form",
+	"description" : "A HubSpot form",
+	"category": "andbrand-block-forms-base",
+	"icon": {
+		"src": "esf-form-hubspot"
+	},
+	"keywords": [
+		"hubspot"
+	],
+	"example": {
+	},
+	"attributes": {
+		"hubspotFormPostId": {
+			"type": "string"
+		},
+		"hubspotFormServerSideRender": {
+			"type": "boolean",
+			"default": false
+		},
+		"hubspotFormDataTypeSelector": {
+			"type": "string"
+		}
+	},
+	"parent": [
+		"andbrand-block-forms-base/form-selector"
+	]
+}

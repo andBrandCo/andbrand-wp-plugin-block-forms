@@ -1,0 +1,20 @@
+{
+	"componentName": "error",
+	"title": "Error",
+	"componentClass": "es-error",
+	"componentJsClass": "js-es-block-form-error",
+	"example": {
+		"attributes": {
+			"errorValue": "Value",
+			"errorId": "Id"
+		}
+	},
+	"attributes": {
+		"errorValue": {
+			"type": "string"
+		},
+		"errorId": {
+			"type": "string"
+		}
+	}
+}

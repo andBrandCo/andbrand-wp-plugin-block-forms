@@ -1,0 +1,29 @@
+{
+	"blockName": "goodbits",
+	"title": "Goodbits Form",
+	"description" : "A Goodbits subscription form",
+	"category": "andbrand-block-forms-base",
+	"icon": {
+		"src": "esf-form-goodbits"
+	},
+	"keywords": [
+		"goodbits"
+	],
+	"example": {
+	},
+	"attributes": {
+		"goodbitsFormPostId": {
+			"type": "string"
+		},
+		"goodbitsFormServerSideRender": {
+			"type": "boolean",
+			"default": false
+		},
+		"goodbitsFormDataTypeSelector": {
+			"type": "string"
+		}
+	},
+	"parent": [
+		"andbrand-block-forms-base/form-selector"
+	]
+}

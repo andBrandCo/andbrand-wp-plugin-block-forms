@@ -1,0 +1,65 @@
+{
+	"componentName": "textarea",
+	"title": "Textarea",
+	"componentClass": "es-textarea",
+	"componentCustomJsClass": "js-es-block-form-custom",
+	"example": {
+		"attributes": {
+			"textareaName": "Name",
+			"textareaValue": "Value",
+			"textareaPlaceholder": "Placeholder",
+			"textareaIsDisabled": false,
+			"textareaIsReadOnly": false,
+			"textareaIsRequired": false
+		}
+	},
+	"components": {
+		"field": "field"
+	},
+	"attributes": {
+		"textareaId": {
+			"type": "string"
+		},
+		"textareaName": {
+			"type": "string"
+		},
+		"textareaValue": {
+			"type": "string"
+		},
+		"textareaPlaceholder": {
+			"type": "string"
+		},
+		"textareaIsDisabled": {
+			"type": "boolean",
+			"default": false
+		},
+		"textareaIsReadOnly": {
+			"type": "boolean",
+			"default": false
+		},
+		"textareaIsRequired": {
+			"type": "boolean",
+			"default": false
+		},
+		"textareaIsMonospace": {
+			"type": "boolean",
+			"default": false
+		},
+		"textareaTracking": {
+			"type": "string"
+		},
+		"textareaValidationPattern": {
+			"type": "string"
+		},
+		"textareaUseCustom": {
+			"type": "boolean",
+			"default": true
+		},
+		"textareaMeta": {
+			"type": "string"
+		},
+		"textareaAttrs": {
+			"type": "array"
+		}
+	}
+}

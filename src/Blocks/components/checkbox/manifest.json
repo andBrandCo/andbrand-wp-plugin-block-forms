@@ -1,0 +1,67 @@
+{
+	"componentName": "checkbox",
+	"title": "Checkbox",
+	"componentClass": "es-checkbox",
+	"componentJsSingleSubmitClass": "js-es-block-form-single-submit",
+	"component": {
+		"error": "error"
+	},
+	"example": {
+		"attributes": {
+			"checkboxLabel": "Label",
+			"checkboxValue": "Value",
+			"checkboxName": "Name",
+			"checkboxIsChecked": false,
+			"checkboxIsDisabled": false,
+			"checkboxIsReadOnly": false,
+			"checkboxIsRequired": false
+		}
+	},
+	"attributes": {
+		"checkboxId": {
+			"type": "string"
+		},
+		"checkboxLabel": {
+			"type": "string"
+		},
+		"checkboxValue": {
+			"type": "string"
+		},
+		"checkboxUncheckedValue": {
+			"type": "string"
+		},
+		"checkboxName": {
+			"type": "string"
+		},
+		"checkboxIsChecked": {
+			"type": "boolean",
+			"default": false
+		},
+		"checkboxIsDisabled": {
+			"type": "boolean",
+			"default": false
+		},
+		"checkboxIsReadOnly": {
+			"type": "boolean",
+			"default": false
+		},
+		"checkboxIsRequired": {
+			"type": "boolean",
+			"default": false
+		},
+		"checkboxTracking": {
+			"type": "string"
+		},
+		"checkboxFieldType": {
+			"type": "string",
+			"default": "fieldset"
+		},
+		"checkboxSingleSubmit": {
+			"type": "boolean",
+			"default": false
+		},
+		"checkboxAttrs": {
+			"type": "array"
+		}
+	}
+}

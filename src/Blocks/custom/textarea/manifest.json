@@ -1,0 +1,18 @@
+{
+	"blockName": "textarea",
+	"title": "Multiline text",
+	"description" : "A multiline text input field",
+	"category": "andbrand-block-forms-base",
+	"icon": {
+		"src": "esf-textarea"
+	},
+	"keywords": [
+		"textarea"
+	],
+	"components": {
+		"textarea": "textarea"
+	},
+	"parent": [
+		"andbrand-block-forms-base/form"
+	]
+}

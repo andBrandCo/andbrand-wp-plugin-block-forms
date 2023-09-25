@@ -1,0 +1,44 @@
+{
+	"blockName": "radios",
+	"title": "Radio buttons",
+	"description" : "A group of radio buttons",
+	"category": "andbrand-block-forms-base",
+	"icon": {
+		"src": "esf-radios"
+	},
+	"keywords": [
+		"radios"
+	],
+	"hasInnerBlocks": true,
+	"components": {
+		"radios": "radios"
+	},
+	"parent": [
+		"andbrand-block-forms-base/form"
+	],
+	"attributes": {
+		"radiosAllowedBlocks": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			},
+			"default": [
+				"andbrand-block-forms-base/radio"
+			]
+		}
+	},
+	"template": [
+		[
+			"andbrand-block-forms-base/radio",
+			{
+				"radioRadioLabel": "Radio 1"
+			}
+		],
+		[
+			"andbrand-block-forms-base/radio",
+			{
+				"radioRadioLabel": "Radio 2"
+			}
+		]
+	]
+}

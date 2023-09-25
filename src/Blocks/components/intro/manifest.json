@@ -1,0 +1,17 @@
+{
+	"componentName": "intro",
+	"title": "Intro",
+	"componentClass": "es-intro",
+	"attributes": {
+		"introTitle": {
+			"type": "string"
+		},
+		"introTitleSize": {
+			"type": "string",
+			"default": "default"
+		},
+		"introSubtitle": {
+			"type": "string"
+		}
+	}
+}

@@ -1,0 +1,77 @@
+{
+	"componentName": "form",
+	"title": "form",
+	"componentClass": "es-form",
+	"componentJsClass": "js-es-block-form",
+	"componentCacheJsClass": "js-es-cache-delete",
+	"components": {
+		"loader": "loader",
+		"field": "field",
+		"globalMsg": "globalMsg"
+	},
+	"example": {
+		"attributes": {
+			"formContent": "Content",
+			"formName": "Name",
+			"formAction": "Action",
+			"formMethod": "Method",
+			"formId": "Id",
+			"formSuccessRedirect": "Url"
+		}
+	},
+	"attributes": {
+		"formContent": {
+			"type": "string"
+		},
+		"formName": {
+			"type": "string"
+		},
+		"formAction": {
+			"type": "string"
+		},
+		"formMethod": {
+			"type": "string",
+			"default": "post"
+		},
+		"formId": {
+			"type": "string"
+		},
+		"formPostId": {
+			"type": "string"
+		},
+		"formSuccessRedirect": {
+			"type": "string"
+		},
+		"formTrackingEventName": {
+			"type": "string"
+		},
+		"formType": {
+			"type": "string"
+		},
+		"formDataTypeSelector": {
+			"type": "string"
+		},
+		"formServerSideRender": {
+			"type": "boolean",
+			"default": false
+		},
+		"formMeta": {
+			"type": "string"
+		},
+		"formAttrs": {
+			"type": "array"
+		}
+	},
+	"options": {
+		"formMethod": [
+			{
+				"label": "Get",
+				"value": "get"
+			},
+			{
+				"label": "Post",
+				"value": "post"
+			}
+		]
+	}
+}

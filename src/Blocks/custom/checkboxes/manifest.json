@@ -1,0 +1,44 @@
+{
+	"blockName": "checkboxes",
+	"title": "Checkboxes",
+	"description" : "A group of checkboxes",
+	"category": "andbrand-block-forms-base",
+	"icon": {
+		"src": "esf-checkboxes"
+	},
+	"keywords": [
+		"checkboxes"
+	],
+	"hasInnerBlocks": true,
+	"components": {
+		"checkboxes": "checkboxes"
+	},
+	"parent": [
+		"andbrand-block-forms-base/form"
+	],
+	"attributes": {
+		"checkboxesAllowedBlocks": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			},
+			"default": [
+				"andbrand-block-forms-base/checkbox"
+			]
+		}
+	},
+	"template": [
+		[
+			"andbrand-block-forms-base/checkbox",
+			{
+				"checkboxCheckboxLabel": "Checkbox 1"
+			}
+		],
+		[
+			"andbrand-block-forms-base/checkbox",
+			{
+				"checkboxCheckboxLabel": "Checkbox 2"
+			}
+		]
+	]
+}

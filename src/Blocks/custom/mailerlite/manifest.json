@@ -1,0 +1,29 @@
+{
+	"blockName": "mailerlite",
+	"title": "Mailerlite Form",
+	"description" : "A MailerLite subscription form",
+	"category": "andbrand-block-forms-base",
+	"icon": {
+		"src": "esf-form-mailerlite"
+	},
+	"keywords": [
+		"mailerlite"
+	],
+	"example": {
+	},
+	"attributes": {
+		"mailerliteFormPostId": {
+			"type": "string"
+		},
+		"mailerliteFormServerSideRender": {
+			"type": "boolean",
+			"default": false
+		},
+		"mailerliteFormDataTypeSelector": {
+			"type": "string"
+		}
+	},
+	"parent": [
+		"andbrand-block-forms-base/form-selector"
+	]
+}

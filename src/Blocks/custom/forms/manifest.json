@@ -1,0 +1,38 @@
+{
+	"blockName": "forms",
+	"title": "Andbrand Block Forms",
+	"description" : "Allows selecting the form that should be displayed",
+	"category": "andbrand-block-forms-base",
+	"icon": {
+		"src": "esf-form"
+	},
+	"keywords": [
+		"forms"
+	],
+	"attributes": {
+		"formsFormPostId": {
+			"type": "string"
+		},
+		"formsFormGeolocation": {
+			"type": "array"
+		},
+		"formsFormGeolocationAlternatives": {
+			"type": "array",
+			"items": {
+				"type": "object"
+			},
+			"default": []
+		},
+		"formsStyle": {
+			"type": "string"
+		},
+		"formsFormDataTypeSelector": {
+			"type": "string"
+		},
+		"formsServerSideRender": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"postType": "es-forms"
+}

@@ -1,0 +1,40 @@
+{
+	"blockName": "sender-email",
+	"title": "Sender Email",
+	"description" : "A field for inputting e-mail addresses that will be the target for sending confirmation e-mails",
+	"category": "andbrand-block-forms-base",
+	"icon": {
+		"src": "esf-sender-email"
+	},
+	"keywords": [
+		"sender",
+		"email"
+	],
+	"components": {
+		"input": "input"
+	},
+	"parent": [
+		"andbrand-block-forms-base/form"
+	],
+	"example": {
+		"attributes": {
+			"inputName": "sender-email",
+			"inputIsRequired": true,
+			"inputIsEmail": true
+		}
+	},
+	"attributes": {
+		"inputName": {
+			"type": "string",
+			"default": "sender-email"
+		},
+		"inputIsRequired": {
+			"type": "boolean",
+			"default": true
+		},
+		"inputIsEmail": {
+			"type": "boolean",
+			"default": true
+		}
+	}
+}

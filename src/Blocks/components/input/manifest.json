@@ -1,0 +1,145 @@
+{
+	"componentName": "input",
+	"title": "Input",
+	"componentClass": "es-input",
+	"example": {
+		"attributes": {
+			"inputName": "Name",
+			"inputValue": "Value",
+			"inputId": "Id",
+			"inputPlaceholder": "Placeholder",
+			"inputType": "text",
+			"inputIsDisabled": false,
+			"inputIsReadOnly": false,
+			"inputIsRequired": false
+		}
+	},
+	"components": {
+		"field": "field"
+	},
+	"attributes": {
+		"inputId": {
+			"type": "string"
+		},
+		"inputName": {
+			"type": "string"
+		},
+		"inputValue": {
+			"type": "string"
+		},
+		"inputPlaceholder": {
+			"type": "string"
+		},
+		"inputType": {
+			"type": "string",
+			"default": "text"
+		},
+		"inputIsDisabled": {
+			"type": "boolean",
+			"default": false
+		},
+		"inputIsReadOnly": {
+			"type": "boolean",
+			"default": false
+		},
+		"inputIsRequired": {
+			"type": "boolean",
+			"default": false
+		},
+		"inputTracking": {
+			"type": "string"
+		},
+		"inputIsEmail": {
+			"type": "boolean",
+			"default": false
+		},
+		"inputIsUrl": {
+			"type": "boolean",
+			"default": false
+		},
+		"inputIsNumber": {
+			"type": "boolean",
+			"default": false
+		},
+		"inputValidationPattern": {
+			"type": "string"
+		},
+		"inputMinLength": {
+			"type": "integer"
+		},
+		"inputMaxLength": {
+			"type": "integer"
+		},
+		"inputMin": {
+			"type": "integer"
+		},
+		"inputMax": {
+			"type": "integer"
+		},
+		"inputStep": {
+			"type": "integer"
+		},
+		"inputMeta": {
+			"type": "string"
+		},
+		"inputAttrs": {
+			"type": "array"
+		}
+	},
+	"options": {
+		"inputType": [
+			{
+				"label": "Plain text",
+				"value": "text"
+			},
+			{
+				"label": "E-mail",
+				"value": "email"
+			},
+			{
+				"label": "Url",
+				"value": "url"
+			},
+			{
+				"label": "Number",
+				"value": "number"
+			},
+			{
+				"label": "Phone number",
+				"value": "tel"
+			},
+			{
+				"label": "Date",
+				"value": "date"
+			},
+			{
+				"label": "Date & time",
+				"value": "datetime-local"
+			},
+			{
+				"label": "No user input (hidden field)",
+				"value": "hidden"
+			}
+		],
+		"inputMinLength": {
+			"min":  0,
+			"step": 1
+		},
+		"inputMaxLength": {
+			"min":  1,
+			"step": 1
+		},
+		"inputMin": {
+			"min":  0,
+			"step": 1
+		},
+		"inputMax": {
+			"min":  1,
+			"step": 1
+		},
+		"inputStep": {
+			"min":  1,
+			"step": 1
+		}
+	}
+}

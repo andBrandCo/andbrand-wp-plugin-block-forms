@@ -1,0 +1,30 @@
+{
+	"componentName": "radios",
+	"title": "radios",
+	"componentClass": "es-radios",
+	"components": {
+		"field": "field"
+	},
+	"attributes": {
+		"radiosId": {
+			"type": "string"
+		},
+		"radiosContent": {
+			"type": "string"
+		},
+		"radiosName": {
+			"type": "string"
+		},
+		"radiosFieldType": {
+			"type": "string",
+			"default": "fieldset"
+		},
+		"radiosIsRequired": {
+			"type": "boolean",
+			"default": false
+		},
+		"radiosMeta": {
+			"type": "string"
+		}
+	}
+}

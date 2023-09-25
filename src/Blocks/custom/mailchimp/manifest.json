@@ -1,0 +1,29 @@
+{
+	"blockName": "mailchimp",
+	"title": "Mailchimp Form",
+	"description" : "A MailChimp subscription form",
+	"category": "andbrand-block-forms-base",
+	"icon": {
+		"src": "esf-form-mailchimp"
+	},
+	"keywords": [
+		"mailchimp"
+	],
+	"example": {
+	},
+	"attributes": {
+		"mailchimpFormPostId": {
+			"type": "string"
+		},
+		"mailchimpFormServerSideRender": {
+			"type": "boolean",
+			"default": false
+		},
+		"mailchimpFormDataTypeSelector": {
+			"type": "string"
+		}
+	},
+	"parent": [
+		"andbrand-block-forms-base/form-selector"
+	]
+}

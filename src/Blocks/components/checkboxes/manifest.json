@@ -1,0 +1,40 @@
+{
+	"componentName": "checkboxes",
+	"title": "checkboxes",
+	"componentClass": "es-checkboxes",
+	"components": {
+		"field": "field"
+	},
+	"attributes": {
+		"checkboxesId": {
+			"type": "string"
+		},
+		"checkboxesContent": {
+			"type": "string"
+		},
+		"checkboxesName": {
+			"type": "string"
+		},
+		"checkboxesFieldType": {
+			"type": "string",
+			"default": "fieldset"
+		},
+		"checkboxesIsRequired": {
+			"type": "boolean",
+			"default": false
+		},
+		"checkboxesIsRequiredCount": {
+			"type": "integer",
+			"default": 1
+		},
+		"checkboxesMeta": {
+			"type": "string"
+		}
+	},
+	"options": {
+		"checkboxesIsRequiredCount": {
+			"min":  1,
+			"step": 1
+		}
+	}
+}

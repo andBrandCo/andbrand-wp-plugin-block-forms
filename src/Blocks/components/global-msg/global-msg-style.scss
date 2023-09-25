@@ -1,0 +1,19 @@
+.es-global-msg {
+	background-color: var(--global-colors-es-reef);
+	color: var(--global-colors-es-white);
+	display: none;
+
+	&[data-status='error'] {
+		background-color: var(--global-colors-es-pome);
+	}
+
+	span {
+		margin-bottom: 20px;
+		padding: 20px;
+		display: block;
+	}
+
+	&.is-active {
+		display: block;
+	}
+}

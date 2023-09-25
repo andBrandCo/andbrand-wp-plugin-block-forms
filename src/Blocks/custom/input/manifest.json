@@ -1,0 +1,27 @@
+{
+	"blockName": "input",
+	"title": "Input",
+	"description" : "A simple data input field (text, e-mail, numbers, URLs, etc.)",
+	"category": "andbrand-block-forms-base",
+	"icon": {
+		"src": "esf-input"
+	},
+	"keywords": [
+		"input",
+		"text",
+		"email",
+		"e-mail",
+		"number",
+		"numbers",
+		"url",
+		"urls",
+		"link",
+		"links"
+	],
+	"components": {
+		"input": "input"
+	},
+	"parent": [
+		"andbrand-block-forms-base/form"
+	]
+}

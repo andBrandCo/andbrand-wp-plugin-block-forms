@@ -1,0 +1,54 @@
+{
+	"componentName": "select",
+	"title": "Select",
+	"componentClass": "es-select",
+	"componentCustomJsClass": "js-es-block-form-custom",
+	"componentJsSingleSubmitClass": "js-es-block-form-single-submit",
+	"example": {
+		"attributes": {
+			"selectOptions": "",
+			"selectName": "Name",
+			"selectIsDisabled": false,
+			"selectIsRequired": false
+		}
+	},
+	"components": {
+		"field": "field"
+	},
+	"attributes": {
+		"selectId": {
+			"type": "string"
+		},
+		"selectOptions": {
+			"type": "string"
+		},
+		"selectName": {
+			"type": "string"
+		},
+		"selectIsDisabled": {
+			"type": "boolean",
+			"default": false
+		},
+		"selectIsRequired": {
+			"type": "boolean",
+			"default": false
+		},
+		"selectTracking": {
+			"type": "string"
+		},
+		"selectSingleSubmit": {
+			"type": "boolean",
+			"default": false
+		},
+		"selectUseCustom": {
+			"type": "boolean",
+			"default": true
+		},
+		"selectMeta": {
+			"type": "string"
+		},
+		"selectAttrs": {
+			"type": "array"
+		}
+	}
+}

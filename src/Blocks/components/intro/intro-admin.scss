@@ -1,0 +1,40 @@
+.es-intro {
+	margin-bottom: 40px;
+
+	&__title {
+		font-size: 22px;
+		font-weight: 600;
+
+		&--medium {
+			font-size: 18px;
+		}
+
+		&--small {
+			font-size: 16px;
+		}
+	}
+
+	&__subtitle {
+		margin-top: 0.5rem;
+		font-size: 14px;
+		line-height: 1.7;
+		color: var(--global-colors-es-boulder);
+	}
+
+	a {
+		color: var(--global-colors-es-matisse);
+		text-decoration-style: dotted;
+		text-underline-offset: 0.1em;
+		text-decoration-thickness: 1px;
+	}
+
+	ul,
+	ol {
+		margin: 0;
+		list-style-position: inside;
+	}
+
+	li {
+		margin: 0;
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"blockName": "greenhouse",
+	"title": "Greenhouse Form",
+	"description" : "A Greenhouse job application form",
+	"category": "andbrand-block-forms-base",
+	"icon": {
+		"src": "esf-form-greenhouse"
+	},
+	"keywords": [
+		"greenhouse"
+	],
+	"example": {
+	},
+	"attributes": {
+		"greenhouseFormPostId": {
+			"type": "string"
+		},
+		"greenhouseFormServerSideRender": {
+			"type": "boolean",
+			"default": false
+		},
+		"greenhouseFormDataTypeSelector": {
+			"type": "string"
+		}
+	},
+	"parent": [
+		"andbrand-block-forms-base/form-selector"
+	]
+}

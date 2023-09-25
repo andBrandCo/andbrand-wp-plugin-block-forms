@@ -1,0 +1,39 @@
+{
+	"blockName": "form",
+	"title": "Custom form",
+	"description" : "A form with customizable fields",
+	"category": "andbrand-block-forms-base",
+	"icon": {
+		"src": "esf-form"
+	},
+	"keywords": [
+		"form"
+	],
+	"hasInnerBlocks": true,
+	"components": {
+		"form": "form"
+	},
+	"parent": [
+		"andbrand-block-forms-base/form-selector"
+	],
+	"attributes": {
+		"formAllowedBlocks": {
+			"type": "array",
+			"default": [
+				"andbrand-block-forms-base/file",
+				"andbrand-block-forms-base/input",
+				"andbrand-block-forms-base/radios",
+				"andbrand-block-forms-base/select",
+				"andbrand-block-forms-base/submit",
+				"andbrand-block-forms-base/textarea",
+				"andbrand-block-forms-base/checkboxes"
+			]
+		},
+		"formFormPostId": {
+			"type": "string"
+		},
+		"formDataTypeSelector": {
+			"type": "string"
+		}
+	}
+}

@@ -1,0 +1,99 @@
+{
+	"blockName": "form-selector",
+	"title": "Form selector",
+	"description" : "Allows selecting the form that should be displayed",
+	"category": "andbrand-block-forms-base",
+	"icon": {
+		"src": "esf-form-picker"
+	},
+	"keywords": [
+		"forms"
+	],
+	"hasInnerBlocks": true,
+	"attributes": {
+		"formSelectorAllowedBlocks": {
+			"type": "array",
+			"default": [
+				"andbrand-block-forms-base/form",
+				"andbrand-block-forms-base/mailchimp",
+				"andbrand-block-forms-base/greenhouse",
+				"andbrand-block-forms-base/hubspot",
+				"andbrand-block-forms-base/mailerlite",
+				"andbrand-block-forms-base/goodbits"
+			]
+		}
+	},
+	"forms": [
+		{
+			"label": "Empty",
+			"slug": "empty",
+			"icon": "esf-form-custom",
+			"blockName": "andbrand-block-forms-base/form"
+		},
+		{
+			"label": "Simple contact",
+			"slug": "contact",
+			"icon": "esf-sender-email",
+			"blockName": "andbrand-block-forms-base/form",
+			"innerBlocks": [
+				[
+					"andbrand-block-forms-base/sender-email",
+					{
+						"senderEmailInputFieldLabel": "E-mail"
+					}
+				],
+				[
+					"andbrand-block-forms-base/input",
+					{
+						"inputInputFieldLabel": "Name"
+					}
+				],
+				[
+					"andbrand-block-forms-base/input",
+					{
+						"inputInputFieldLabel": "Subject"
+					}
+				],
+				[
+					"andbrand-block-forms-base/textarea",
+					{
+						"textareaTextareaFieldLabel": "Message"
+					}
+				],
+				[
+					"andbrand-block-forms-base/submit"
+				]
+			]
+		},
+		{
+			"label": "Mailchimp",
+			"slug": "mailchimp",
+			"icon": "esf-form-mailchimp",
+			"blockName": "andbrand-block-forms-base/mailchimp"
+		},
+		{
+			"label": "Greenhouse",
+			"slug": "greenhouse",
+			"icon": "esf-form-greenhouse",
+			"blockName": "andbrand-block-forms-base/greenhouse"
+		},
+		{
+			"label": "HubSpot",
+			"slug": "hubspot",
+			"icon": "esf-form-hubspot",
+			"blockName": "andbrand-block-forms-base/hubspot"
+		},
+		{
+			"label": "MailerLite",
+			"slug": "mailerlite",
+			"icon": "esf-form-mailerlite",
+			"blockName": "andbrand-block-forms-base/mailerlite"
+		},
+		{
+			"label": "Goodbits",
+			"slug": "goodbits",
+			"icon": "esf-form-goodbits",
+			"blockName": "andbrand-block-forms-base/goodbits"
+		}
+	]
+}
